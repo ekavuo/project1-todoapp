@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>TODO list app</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-transparent">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="img/baseline_done_black_18dp.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/cssOne.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<script src="js/todoJS.js"></script>
+
+<body>
+  <div id="container">
+  <h1>TODO LIST</h1>
+<div id="line" class="row justify-content-around">
+<form id="formAndButtons">
+  <div class="col-sm-4"><input type="text" id="textBox" placeholder="Write here..."></div>
+  <div class="col-sm-4"><button type="button" onclick="addTask()" id="addButton" value="Insert">ADD TASK</button></div>
+  <div class="col-sm-4"><input type="button"  onclick="clearTasks()" id="clearButton2" value="CLEAR"></div>
+</form>  </div>
+
+<div id="taskBlock" class="col-sm-12">
+  
+  <ul id="todoList">
+  
+  </ul>
+</div></div>
+
+</body>
+</html>
